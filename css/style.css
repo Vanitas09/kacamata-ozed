@@ -284,18 +284,33 @@ body {
   display: flex;
   align-items: center;
   margin-top: 2rem;
-  background-color: var(--bg);
+  /* Code border, ga dipakai lagi
+  background-color: var(--bg); 
   border: 1px solid #eee;
+  */
   padding-left: 2rem;
 }
 
-.contact .row form .input-group input {
+.contact .row form .input-group .tulisan-di-kontak {
+  text-align: center;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.contact .row .btn:hover {
+  background-color: #63c706;
+  color: #010101;
+}
+
+/* css untuk form input submit di kontak kami
+ .contact .row form .input-group input { 
   width: 100%;
   padding: 2rem;
   font-size: 1.7rem;
   background: none;
   color: #fff;
 }
+*/
 
 .contact .row form .btn {
   margin-top: 3rem;
